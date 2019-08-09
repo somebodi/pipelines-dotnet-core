@@ -26,7 +26,4 @@ steps:
     publishWebProjects: True
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: false
-- task: CopyFilesOverSSH@0
-  inputs:
-    sshEndpoint: azure-pipelines-test-Ocean
 
