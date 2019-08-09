@@ -28,5 +28,5 @@ steps:
     zipAfterPublish: false
 - task: CopyFilesOverSSH@0
   inputs:
-    sshEndpoint: DigitalOcean
+    sshEndpoint: azure-pipelines-test-Ocean
 
